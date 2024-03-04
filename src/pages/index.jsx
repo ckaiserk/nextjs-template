@@ -5,14 +5,14 @@ import { Jumbotron } from "@/components/Jumbotron";
 import { Container, Row, Col, Button} from "react-bootstrap";
 import About from "./about";
 import Link from "next/link";
+import { CounterContainer } from "@/components/CounterContainer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <Container>
-      <Jumbotron/>
-      <Link href="/about">About</Link>
+      <CounterContainer/>
     </Container>
   );
 }
